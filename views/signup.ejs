@@ -7,6 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
   <meta name="generator" content="Hugo 0.80.0">
+  <link rel="icon" href="image/favicon.ico">
   <title>Newsletter Signup</title>
 
   <!-- Bootstrap core CSS -->
@@ -22,14 +23,14 @@
 
   <main class="form-signin">
     <form action="/" method="post">
-      <img class="mb-4" src="image/marshmello.jpg" alt="" width="72" height="60">
+      <img class="mb-4" src="image/newsletter.jpg" alt="" width="150" height="100">
       <h1 class="h3 mb-3 fw-normal">Signup to My Newsletter</h1>
 
       <input type="text" class="form-control top" name="firstName" placeholder="First Name" required autofocus>
       <input type="text" class="form-control middle" name="lastName" placeholder="Last Name" required>
       <input type="email" class="form-control bottom" name="email" placeholder="Email" required>
       <button class=" btn btn-lg btn-primary btn-block" type="submit">Sign up !</button>
-      <p class="mt-5 mb-3 text-muted">&copy; Issagoodlife</p>
+      <p class="mt-5 mb-3 text-muted">&copy; Issagoodlife <br> @<%= year %> </p>
     </form>
   </main>
 
